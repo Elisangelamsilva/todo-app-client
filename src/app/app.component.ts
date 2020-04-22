@@ -5,6 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
+// Lógica que controla a exibição
 export class AppComponent {
   title = 'todo-app-client';
 }
