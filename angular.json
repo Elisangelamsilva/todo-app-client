@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "todo-app-client": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "todo-app-client"
+    }
+  },
+  "defaultProject": "todo-app-client",
+  "cli": {
+    "analytics": "34b41cbd-5037-4830-bc7f-7360fd9b45fe"
+  }
 }
