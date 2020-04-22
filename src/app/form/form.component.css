@@ -1,5 +1,13 @@
 .input-fiel {
-
-    padding: 10px 20px;
+    left:50%;
+    top:20%;
+    margin-left: -150px; 
+    margin-top: auto; 
+    position:absolute;
+    width: 230px; 
+    height:230px;
+    /* text-align: center; */
+    padding: 50px 50px;
     background:#fff;
+    font-family: 'Muli', sans-serif;
 }
