@@ -1,7 +1,7 @@
 .input-fiel {
     left:50%;
     top:20%;
-    margin-left: -150px; 
+    margin-left: -220px; 
     margin-top: auto; 
     position:absolute;
     width: 500px; 
@@ -10,6 +10,4 @@
     padding: 80px 80px;
     background:#fff;
     font-family: 'Muli', sans-serif;
-}
-#button {
 }
