@@ -1,36 +1,29 @@
-<link href="https://fonts.googleapis.com/css2?family=Muli&display=swap" rel="stylesheet">
-<div class="input-cadastro .container">
+<div class="input-cadastro container">
 
-  <div class="form-row">
-    <h3>Cadastro</h3>
-    <div class=".col-6 .col-lg-4">
-      <label>First name </label>
-      <input type="text" class="namedirst" id="firstname">
-    </div> 
+  <h3>Cadastro</h3>
 
-    <div class=".col-6 .col-lg-4">
-      <label for="validationDefault02">Last name </label>
-      <input type="text" class="lastname" id="namelast">
-    </div>
+  <div class="form-group">
+    <label for="input-nome"> Primeiro nome</label>
+    <input type="text" class="form-control" id="nomePrimeiro">
+  </div>
 
-    <div class="form-group row">
-      <label for="inputEmail" class=".col-6 .col-lg-4 col-form-label">Email </label>
-        <input type="email" class="form-control" id="inputEmail3">
-    </div>
+  <div class="form-group">
+    <label for="input-nome"> Segundo nome</label>
+    <input type="text" class="form-control" id="nomeSegundo">
+  </div>
 
-    <div class="form-group row">
-      <label for="inputPassword3" class=".col-6 .col-lg-4-form-label">Password</label>
-      <!-- <div class="col-sm-10"> -->
-        <input type="password" class="form-control" id="inputPassword3">
-      <!-- </div> -->
-    </div><br/>
-  
-  <button type="submit" routerLink="/form" href="">Voltar</button>
+  <div class="form-group">
+    <label for="input-email"> Email</label>
+    <input type="email" class="form-control" id="idEmail">
+  </div>
+
+  <div class="form-group">
+    <label for="input-senha"> Password</label>
+    <input type="password" class="form-control" id="idSenha">
+  </div>
+
+    <button type="submit" routerLink="/form" class="btn btn-primary">Voltar</button>
   <button type="submit" class="btn btn-primary">Enviar</button>
 
-
-
-  
-  </div>
 </div>
 
