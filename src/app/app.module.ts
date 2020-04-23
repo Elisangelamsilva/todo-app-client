@@ -9,6 +9,7 @@ import { FormComponent } from './form/form.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { from } from 'rxjs';
 import { HomeComponent } from './home/home.component';
+import { TopoComponent } from './topo/topo.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { HomeComponent } from './home/home.component';
     FormComponent,
     CadastroComponent,
     HomeComponent,
+    TopoComponent,
   ],
   imports: [
     BrowserModule,
