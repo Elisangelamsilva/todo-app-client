@@ -8,16 +8,16 @@ import { AppComponent } from './app.component';
 import { FormComponent } from './form/form.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { from } from 'rxjs';
-import { HomeComponent } from './home/home.component';
 import { TopoComponent } from './topo/topo.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FormComponent,
     CadastroComponent,
-    HomeComponent,
     TopoComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
