@@ -7,7 +7,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormComponent } from './form/form.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
-import { from } from 'rxjs';
 import { TopoComponent } from './topo/topo.component';
 import { HomeComponent } from './home/home.component';
 
