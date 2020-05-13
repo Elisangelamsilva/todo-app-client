@@ -1,13 +1,10 @@
 .input-cadastro {
-    left:50%;
-    top:20%;
-    margin-left: -260px; 
-    margin-top: auto; 
+    left:38%;
+    top:25%;
     position:absolute;
     width: 500px; 
-    height:500px;
-    /* text-align: center; */
-    padding: 50px 50px;
+    height:550px;
+    padding: 80px 80px;
     background:#fff;
     font-family: 'Muli', sans-serif;
 }
