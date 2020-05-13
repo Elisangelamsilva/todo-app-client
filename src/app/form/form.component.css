@@ -1,13 +1,12 @@
 .input-fiel {
-    left:50%;
-    top:20%;
-    margin-left: -220px; 
-    margin-top: auto; 
+    left:38%;
+    top:35%;
     position:absolute;
     width: 500px; 
-    height:400px;
-    /* text-align: center; */
+    height:450px;
     padding: 80px 80px;
     background:#fff;
     font-family: 'Muli', sans-serif;
+
+    
 }
